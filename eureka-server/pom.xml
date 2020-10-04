@@ -64,6 +64,14 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub akhilnaidu1994 Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/akhilnaidu1994/akn-microservices</url>
+		</repository>
+	</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
